@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Logs and local environment files
+*.log
+.env
+.env.local
+.env.development
+.env.production
+
+# Cache files
+.cache/
+*.cache
+
+# Dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations
+migrations/
+
+# FastAPI specific
+instance/
+alembic/
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Frontend (Vue.js if applicable)
+node_modules/
+dist/
