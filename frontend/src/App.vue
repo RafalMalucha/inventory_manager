@@ -1,4 +1,4 @@
-  <script>
+  <script lang="js">
     import TestComponent from './components/TestComponent.vue';
 
     export default {
@@ -12,7 +12,6 @@
   <template>
     <div id="app">
       <h1>skibidiii</h1>
-      <p>wy kurwy</p>
       <TestComponent />
     </div>
   </template>
